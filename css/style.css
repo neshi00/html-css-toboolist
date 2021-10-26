@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    height: 900px;
+}
+
+header {
+    height: 120px;
+}
+
+.logo {
+    line-height: 120px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.text-logo {
+    display: inline-block;
+}
+
+.box {
+    background-color: white;
+    width: 600px;
+    margin: 40px auto;
+}
+
