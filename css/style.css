@@ -7,7 +7,7 @@
 .container {
     width: 1200px;
     background-color: lightgrey;
-    border: 2px solid black;
+    border: 1px solid lightgrey;
     height: 900px;
 }
 
@@ -34,13 +34,90 @@ header {
     background-color: white;
     width: 600px;
     margin: 40px auto;
+    border-radius: 5%;
 }
 
-.tag {
+.top-box,section {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.top-tag {
     display: inline-block;
-    background-color: tomato;
     border-radius: 5px;
     padding: 10px;
     color: white;
+    margin-bottom: 10px;
 }
+
+#top-tag-1 {
+    background-color: rgb(41, 154, 199);
+}
+
+#top-tag-2 {
+    color: grey;
+    border: 1px solid grey;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.fatto {
+    border: 2px solid limegreen;
+    border-radius: 50%;
+    color: limegreen;
+    padding: 1px;
+    font-size: 8px;
+}
+
+.non-fatto {
+    border-radius: 50%;
+    border: 2px solid red;
+    color: red;
+    font-size: 8px;
+    padding: 1px;
+}
+
+.tag {
+    width: 30px;
+    background-color: rgb(41, 154, 199);
+    border-radius: 40%;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#goals {
+    background-color: rebeccapurple;
+}
+
+#recruiting {
+    background-color: green;
+}
+
+#mobile{
+    background-color: orange;
+}
+
+#website {
+    background-color: pink;
+}
+
+#sales {
+    background-color: lightgreen;
+}
+
 
