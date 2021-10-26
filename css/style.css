@@ -23,11 +23,24 @@ header {
 
 .text-logo {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.image-logo {
+    vertical-align: middle;
 }
 
 .box {
     background-color: white;
     width: 600px;
     margin: 40px auto;
+}
+
+.tag {
+    display: inline-block;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
 }
 
