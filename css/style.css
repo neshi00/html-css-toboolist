@@ -6,13 +6,15 @@
 
 .container {
     width: 1200px;
-    background-color: lightgrey;
-    border: 1px solid lightgrey;
+    background-color: #eceeef;
+    border: 1px solid #eceeef;
     height: 900px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -50,11 +52,11 @@ header {
     margin-bottom: 10px;
 }
 
-#top-tag-1 {
-    background-color: rgb(41, 154, 199);
+.top-tag-1 {
+    background-color: #47adf1;
 }
 
-#top-tag-2 {
+.top-tag-2 {
     color: grey;
     border: 1px solid grey;
 }
@@ -85,8 +87,8 @@ h2 {
 
 .tag {
     width: 30px;
-    background-color: rgb(41, 154, 199);
-    border-radius: 40%;
+    background-color: #47adf1;
+    border-radius: 10px;
     padding: 8px;
     color: white;
     font-size: 15px;
@@ -100,23 +102,23 @@ p {
     margin-bottom: 10px;
 }
 
-#goals {
+.goals {
     background-color: rebeccapurple;
 }
 
-#recruiting {
+.recruiting {
     background-color: green;
 }
 
-#mobile{
+.mobile{
     background-color: orange;
 }
 
-#website {
+.website {
     background-color: pink;
 }
 
-#sales {
+.sales {
     background-color: lightgreen;
 }
 
